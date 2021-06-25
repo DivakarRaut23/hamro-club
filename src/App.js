@@ -12,11 +12,11 @@ const initialName = {
   key : ''
 }
 
-const [venue, setvenue] = useState('')
-const [formData, setFormData] = useState({
-  name:" ",
-  key: " "
-})
+// const [venue, setvenue] = useState('')
+// const [formData, setFormData] = useState({
+//   name:" ",
+//   key: " "
+// })
 const [data, setData] = useState('')
 const [nameList, setNameList] = useState([])
 const [currentName, setCurrentName] = useState(initialName)

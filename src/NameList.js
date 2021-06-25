@@ -4,10 +4,10 @@ import FlipMove from 'react-flip-move';
 
 function NameList(props){
     
-  const nameList = props.nameList
+
   const players = props.players
 
-  const data = props.data
+  
     
     
 
