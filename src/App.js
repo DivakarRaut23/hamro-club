@@ -38,12 +38,10 @@ for (let index = 0; index < data.length; index++) {
   
    const user = {
      name:element.title,
-     key: Date.now()
+     key: element.title
    }
   //  setNameList(...nameList,user)
  players.push(user)
- console.log("This is Player>>>", players)
- 
   
 }
 
@@ -102,7 +100,7 @@ const handleInput = (e) => {
     <div className="App">
       <header>
         <div id='title'> Hamro Club Oran Park </div>
-        <div id='venue'><b>Venue:</b> This is static Venue</div>
+        <div id='venue'><b>Venue:</b> Wayne Gardener Reserve</div>
         <div id='date'><b>Date:</b> 26/06/2021, Saturday </div>
         <form id="to-do-form" onSubmit={addItem}>
           <input type="text" placeholder="Enter Name" value= {currentName.name} onChange={handleInput}></input>
