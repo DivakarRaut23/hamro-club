@@ -101,7 +101,7 @@ const handleInput = (e) => {
       <header>
         <div id='title'> Hamro Club Oran Park </div>
         <div id='venue'><b>Venue:</b> Wayne Gardener Reserve</div>
-        <div id='date'><b>Date:</b> 26/06/2021, Saturday </div>
+        <div id='date'><b>Date:</b> 27/06/2021, Sunday </div>
         <form id="to-do-form" onSubmit={addItem}>
           <input type="text" placeholder="Enter Name" value= {currentName.name} onChange={handleInput}></input>
           <button type="submit">Add</button>
